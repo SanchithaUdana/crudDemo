@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "cruddemo.cr4qo8eowr5r.us-east-1.rds.amazonaws.com";
 $username = "root";
-$password = "root";
+$password = "Password2002";
 $dbname = "crudDemo";
 
 // Create connection
