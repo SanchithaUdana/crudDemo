@@ -1,5 +1,7 @@
 <?php
-include "db.inc.php";
+// include "db.inc.php";
+include "../inc/dbinfo.inc";
+
 ?>
 
 <?php
