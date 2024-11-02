@@ -1,5 +1,5 @@
 <?php
-include "db_conn.php";
+include "db.inc.php";
 ?>
 
 <!DOCTYPE html>
