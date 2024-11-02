@@ -1,5 +1,11 @@
 <?php
-include "db_conn.php";
+include "db.inc.php";
+/* Connect to MySQL and select the database. */
+$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+
+if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
+
+$database = mysqli_select_db($connection, DB_DATABASE);
 
 if (isset ($_POST["submit"])) {
 
