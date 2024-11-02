@@ -1,7 +1,7 @@
 <?php
 
-define('DB_SERVER', 'db_instance_endpoint');
+define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Password2002');
+define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'crudDemo');
 ?>
